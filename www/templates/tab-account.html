@@ -1,5 +1,13 @@
 <ion-view title="Account">
-  <ion-content class="has-header padding">
+  <ion-content class="has-header padding account">
     <h1>Account</h1>
+    <section class='login' data-ng-hide='user.auth'>
+        <div class=''>
+            <p>Sign in to start competing</p>
+            <button class="button button-full  button-positive" data-ng-click='loginWithFacebook()'>
+              <img class='fblogo' src='/img/fb.png' /> Login
+            </button>
+        </div>
+    </section>
   </ion-content>
 </ion-view>

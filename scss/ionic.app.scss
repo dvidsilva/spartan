@@ -21,3 +21,15 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+.account {
+    .login {
+        button {
+            height: 30px;
+            img {
+                margin: 2px 4px;
+                height: 88%;
+            }
+        }
+    }
+}
+
