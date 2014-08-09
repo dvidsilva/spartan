@@ -1,2 +1,4 @@
 node_modules/
 www/cordova.js
+.DS_Store
+firebase.json

@@ -9,5 +9,11 @@
             </button>
         </div>
     </section>
+    <section class='profile' data-ng-show='user.auth'>
+        <div class=''>
+            <img ng-src='http://graph.facebook.com/{{user.data.id}}/picture?type=large' />
+            <h2 data-ng-bind='user.data.displayName'></h2>
+        </div>
+    </section>
   </ion-content>
 </ion-view>
