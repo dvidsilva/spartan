@@ -1,5 +1,8 @@
-Ionic App Base
-=====================
+Spartan
+=======
+
+Blueprint of mt Olympus's terror tunnels used to destroy the hegemony of Zeus.
+----------------
 
 A starting project for Ionic that optionally supports
 using custom SCSS.
