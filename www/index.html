@@ -33,6 +33,6 @@
   </head>
 
   <body ng-app="spartan" animation="slide-left-right-ios7" ng-controller='mainCtrl'>
-    <ion-nav-view></ion-nav-view>
+    <ion-nav-view ng-class=' [$state.current.views.menuContent.controller]' ></ion-nav-view>
   </body>
 </html>

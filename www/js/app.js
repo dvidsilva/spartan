@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('spartan', ['ionic', 'spartan.controllers','spartan.services', 'firebase'])
+angular.module('spartan', ['ionic', 'spartan.controllers', 'spartan.services', 'firebase'])
     .run(function ($ionicPlatform) {
         $ionicPlatform.ready(function () {
             // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -37,11 +37,12 @@ angular.module('spartan', ['ionic', 'spartan.controllers','spartan.services', 'f
                 }
             }
         })
-        .state('app.search', {
-            url: "/search",
+        .state('app.gods', {
+            url: "/gods",
             views: {
                 'menuContent': {
-                    templateUrl: "templates/search.html"
+                    templateUrl: "templates/gods.html",
+                    controller: 'godsCtrl'
                 }
             }
         })

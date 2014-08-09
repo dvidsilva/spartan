@@ -20,16 +20,68 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,500);
 
-.account {
-    .login {
-        button {
-            height: 30px;
-            img {
-                margin: 2px 4px;
-                height: 88%;
-            }
-        }
-    }
+.gradient_bg {
+  background: -moz-linear-gradient(top,  #f67528 0%, #f67528 22%, #ffe14c 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f67528), color-stop(22%,#f67528), color-stop(100%,#ffe14c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f67528 0%,#f67528 22%,#ffe14c 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f67528 0%,#f67528 22%,#ffe14c 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f67528 0%,#f67528 22%,#ffe14c 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f67528 0%,#f67528 22%,#ffe14c 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f67528', endColorstr='#ffe14c',GradientType=0 ); /* IE6-9 */
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f67528; /* Old browsers */
+}
+body, .pane, .panel {
+    @extend .gradient_bg;
+}
+
+.leftmenu {
+  background: #283539;
+  .link a {
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    background: #283539;
+    padding: 20px 0;
+  }
+}
+
+.loginpanel {
+  background-image: url('../img/sunset.png');
+  width: 100%;
+  position: relative;
+//  top: 0px;
+//  left: 0px;
+  height: 1024px;
+//  bottom: 0px;
+//  right: 0px;
+  background-position: bottom center;
+  background-size: cover;
+  h1 {
+    position: absolute;
+    top: 35%;
+    color: white;
+    font-weight: 100;
+    right: 10px;
+    font-size: 60px;
+  }
+  button {
+    position: absolute;
+    width: 80%;
+    margin: 0 10%;
+    height: 50px;
+    background: #3B5998 !important;
+    top: 75%;
+    border: 1px solid white;
+    border-radius: 3px;
+    img {
+      height: 85%;
+      margin: 0 10px;
+    }
+  }
+}
