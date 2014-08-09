@@ -9,9 +9,11 @@
     <section class='login' data-ng-hide='user.auth'>
         <div class=''>
             <p>Sign in to start competing</p>
-            <button class="button button-full  button-positive" data-ng-click='loginWithFacebook()'>
+            <!-- <button class="button button-full  button-positive" data-ng-click='loginWithFacebook()'>
               <img class='fblogo' src='/img/fb.png' /> Login
-            </button>
+            </button> -->
+                <button class="button button-full button-positive" ng-click="login('facebook')">Login with Facebook</button>
+    <button class="button button-full button-outline button-assertive" ng-click="logout()">Logout</button>
         </div>
     </section>
     <section class='profile' data-ng-show='user.auth'>

@@ -30,4 +30,10 @@
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Cookies">
+        <param name="android-package" value="com.bez4pieci.cookies.Cookies" />
+    </feature>
 </widget>
