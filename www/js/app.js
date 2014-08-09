@@ -75,7 +75,3 @@ angular.module('spartan', ['ionic', 'spartan.controllers','spartan.services', 'f
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/profile');
 });
-
-myApp.controller("loginCtrl", function($scope, $rootScope, $firebase, $firebaseSimpleLogin) {
-  ...
-});

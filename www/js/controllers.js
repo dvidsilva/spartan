@@ -37,6 +37,8 @@ angular.module('spartan.controllers', [])
             $scope.user.data = {};
             localStorage['data.user'] = '';
         });
+
+            
     };
 
 
@@ -45,6 +47,7 @@ angular.module('spartan.controllers', [])
         $scope.user.auth = false;
         $scope.user.data = {};
         localStorage['data.user'] = '';
+        
     };
 
     // create an AngularFire reference to the data

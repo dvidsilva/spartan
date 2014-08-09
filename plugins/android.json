@@ -17,10 +17,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Cookies\"><param name=\"android-package\" value=\"com.bez4pieci.cookies.Cookies\" /></feature>",
                             "count": 1
                         }
@@ -37,9 +33,6 @@
             "PACKAGE_NAME": "com.ionicframework.spartan589752"
         },
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.ionicframework.spartan589752"
-        },
-        "org.apache.cordova.inappbrowser": {
             "PACKAGE_NAME": "com.ionicframework.spartan589752"
         },
         "com.bez4pieci.cookies": {
