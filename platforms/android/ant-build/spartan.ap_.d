@@ -44,6 +44,7 @@
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/assets/www/css/style.css \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/assets/www/img/fb.png \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/assets/www/img/ionic.png \
+/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/assets/www/img/sunset.png \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/assets/www/js/app.js \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/assets/www/js/controllers.js \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/assets/www/js/services.js \

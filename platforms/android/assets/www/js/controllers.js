@@ -1,6 +1,7 @@
 angular.module('spartan.controllers', [])
-    .controller('mainCtrl', function ($scope) {
+    .controller('mainCtrl', function ($scope, $state) {
         var already;
+        $scope.$state = $state;
         $scope.user = {
             auth: false,
             data: {}
@@ -12,7 +13,7 @@ angular.module('spartan.controllers', [])
     })
 
 
-.controller('LoginCtrl', function ($scope, $firebase, $firebaseSimpleLogin) {
+.controller('LoginCtrl', function ($scope, $firebase, $state,$firebaseSimpleLogin) {
     var ref, auth;
     ref = new Firebase("https://mtolympus.firebaseio.com/");
     auth = $firebaseSimpleLogin(ref);
@@ -20,7 +21,7 @@ angular.module('spartan.controllers', [])
     $scope.loginWithFacebook = function () {
         auth.$login("facebook").then(function (user) {
             $scope.user.auth = true;
-            user.picture = user.thirdPartyUserData.picture.data.url
+            user.picture = "http://graph.facebook.com/"+user.id+"/picture?type=large";
             angular.extend($scope.user, {
                 data: user
             });
