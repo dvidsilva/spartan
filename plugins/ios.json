@@ -19,8 +19,17 @@
                         {
                             "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Cookies\"><param name=\"ios-package\" value=\"CDVCookies\" /></feature>",
+                            "count": 1
                         }
                     ]
+                }
+            },
+            "framework": {
+                "parents": {
+                    "CoreGraphics.framework": []
                 }
             }
         }
@@ -33,6 +42,9 @@
             "PACKAGE_NAME": "com.ionicframework.spartan589752"
         },
         "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.ionicframework.spartan589752"
+        },
+        "com.bez4pieci.cookies": {
             "PACKAGE_NAME": "com.ionicframework.spartan589752"
         }
     },
