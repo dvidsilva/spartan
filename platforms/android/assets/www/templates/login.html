@@ -1,26 +1,26 @@
-<ion-view title="Login">
-  <ion-nav-buttons side="left">
-    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
-  </ion-nav-buttons>
-  
+<div>
+  <section class='loginpanel' data-ng-hide='user.auth'>
+    <div class=''>
+      <h1>Olympus</h1>
+      <button class="button button-full  button-positive" data-ng-click='loginWithFacebook()'>
+        <img class='fblogo' src='/img/fb.png' />Login
+      </button>
+    </div>
+  </section>
 
-  <ion-content class="has-header padding account">
-    <h1>Account</h1>
-    <section class='login' data-ng-hide='user.auth'>
-        <div class=''>
-            <p>Sign in to start competing</p>
-            <!-- <button class="button button-full  button-positive" data-ng-click='loginWithFacebook()'>
-              <img class='fblogo' src='/img/fb.png' /> Login
-            </button> -->
-                <button class="button button-full button-positive" data-ng-click='loginWithFacebook()'>Login with Facebook</button>
-    <button class="button button-full button-outline button-assertive" ng-click="logout()">Logout</button>
-        </div>
-    </section>
-    <section class='profile' data-ng-show='user.auth'>
-        <div class=''>
-            <img ng-src='http://graph.facebook.com/{{user.data.id}}/picture?type=large' />
-            <h2 data-ng-bind='user.data.displayName'></h2>
-        </div>
-    </section>
-  </ion-content>
-</ion-view>
+
+  <section class='profile' >
+    <h2>Track Hermes</h2>
+
+    <div class=''>
+      <img ng-src='{{user.picture}}' />
+      <h2 data-ng-bind='user.data.displayName'></h2>
+
+      <button class="button button-full  button-positive" data-ng-click='logout()'>
+        Logout
+      </button>
+
+    </div>
+  </section>
+
+</div>

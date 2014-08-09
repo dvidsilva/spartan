@@ -1,8 +1,4 @@
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes.dex : \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/bez4pieci/cookies/Cookies.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$1.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$2.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard.class \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionicframework/spartan589752/BuildConfig.class \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionicframework/spartan589752/R$attr.class \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionicframework/spartan589752/R$drawable.class \
@@ -10,19 +6,4 @@
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionicframework/spartan589752/R$xml.class \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionicframework/spartan589752/R.class \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/com/ionicframework/spartan589752/spartan.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4$1.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowserDialog.class \
-/Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
 /Applications/XAMPP/xamppfiles/htdocs/spartan/platforms/android/ant-build/dexedLibs/classes-e383d3ba646775e7f595d015ac49b253.jar \
