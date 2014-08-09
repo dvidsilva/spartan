@@ -9,14 +9,38 @@
   </section>
 
 
-  <section class='profile' >
+  <section class='profile'  data-ng-show='user.auth'>
     <h2>Track Hermes</h2>
+    <h2 data-ng-bind='user.data.displayName'></h2>
 
     <div class=''>
-      <img ng-src='{{user.picture}}' />
-      <h2 data-ng-bind='user.data.displayName'></h2>
+     
+       <nav class="circular-menu">
+        <div class="circle open">
+          <a href="" class="fa fa-wechat fa-2x"></a>
+          <a href="" class="fa fa-circle-o-notch fa-2x"></a>
+          <a href="" class="fa fa-wrench fa-2x"></a>
+          <a href="" class="fa fa-star-o fa-2x"></a>
+        </div>
+        <a href="" class="menu-button "><img ng-src='{{user.data.picture}}' /></a>
+      </nav>
 
-      <button class="button button-full  button-positive" data-ng-click='logout()'>
+     
+      
+
+     <ion-scroll zooming="false" direction="y" style="" class="awards" >
+        <div class='award' data-ng-repeat="item in [2,3,4,5,6,7,8,9,10,11,12,14,15,16,17]">
+          <div class='left'>{{item}}/{{(item*3)/item+item}}<img src='http://placehold.it/50X50' /> </div>
+          <div class='text' >
+            <h4>New Badge for running</h4>
+            <p>Suck on it loser</p>
+          </div>
+        </div>
+     </ion-scroll>
+
+     
+     
+      <button class="logout button button-full  button-assertive " data-ng-click='logout()'>
         Logout
       </button>
 

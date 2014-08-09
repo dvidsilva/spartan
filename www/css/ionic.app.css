@@ -7710,3 +7710,114 @@ body {
     .loginpanel button img {
       height: 85%;
       margin: 0 10px; }
+
+.profile {
+  /* Author stuff */ }
+  .profile h2, .profile h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center; }
+  .profile h3 {
+    font-size: 30px; }
+  .profile body {
+    background: #39D; }
+  .profile .circular-menu {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+    position: relative; }
+  .profile .circle {
+    width: 280px;
+    height: 280px;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out; }
+  .profile .open.circle {
+    opacity: 1;
+    background: white;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1); }
+  .profile .circle a {
+    text-decoration: none;
+    color: #CECECE;
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-left: -20px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center; }
+  .profile .circle a:hover {
+    color: #eef; }
+  .profile .menu-button {
+    position: absolute;
+    top: 64px;
+    left: calc(50% - 73px);
+    text-decoration: none;
+    text-align: center;
+    color: #444;
+    border-radius: 50%;
+    display: block;
+    height: 150px;
+    width: 150px;
+    line-height: 0;
+    padding: 0;
+    background: #dde;
+    overflow: hidden;
+    border: 5px solid #1CA631; }
+  .profile .menu-button:hover {
+    background-color: #eef; }
+  .profile h1.author {
+    text-align: center;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300; }
+  .profile .logout {
+    position: fixed;
+    bottom: 0px; }
+  .profile .awards {
+    width: 100%;
+    height: 46%;
+    position: fixed;
+    bottom: 40px;
+    background: #283539; }
+    .profile .awards .award {
+      clear: both;
+      width: 100%;
+      color: white; }
+      .profile .awards .award:nth-child(even) {
+        background: rgba(216, 216, 216, 0.2); }
+      .profile .awards .award .left {
+        width: 30%;
+        float: left;
+        line-height: 100%;
+        height: 100%;
+        padding: 13px 6px 0px;
+        font-size: 18px;
+        position: relative; }
+        .profile .awards .award .left img {
+          position: absolute;
+          right: 4px;
+          top: 4px;
+          margin: 4px;
+          border-radius: 50%; }
+      .profile .awards .award .text {
+        width: 69%;
+        float: left;
+        color: white; }
+        .profile .awards .award .text h4 {
+          color: inherit; }
+      .profile .awards .award:after {
+        display: block;
+        content: "  ";
+        height: 2px;
+        width: 100%;
+        cleaR: both; }
